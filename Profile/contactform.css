@@ -1,0 +1,108 @@
+:root {
+    --primary: #5F5DFE;
+    --primary-darker: #4F4DFE;
+    --bg: #EFF3F4;
+    --white: #FFF;
+    --profile-bg: #FFFFFD;
+    --socials-bg: #F9FAFC;
+    --highlight-bg: #F9FAFC;
+    --text-bg: #878789;
+    --text: #797C83;
+    --border-color: #F4F4F4;
+    --social-color: #6B6C6E;
+    --active: #7774B5;
+    --tab-bg: #EBE9FF;
+    --tabs-border: #F2F6F5;
+    --tab-width: 7rem;
+    --tabs-gap: 0rem;
+    --tab-radius: 0.4rem;
+    --scrollbar-thumb: #e4e3f3;
+    --scrollbar-bg: #F2F6F5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: 1px solid var(--primary);
+    outline-offset: 0;
+}
+
+*::selection {
+    background: var(--primary);
+    color: var(--white);
+}
+
+*::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+    background: var(--scrollbar-bg);
+    border-radius: 9.99rem;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 9.99rem;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    user-select: none;
+}
+
+.formcontaine {
+    background: var(--profile-bg);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 32rem;
+    min-width: 24rem;
+    margin: 0 auto;
+    gap: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 1rem;
+}
+form h3{
+    color: var(--text);
+    font-weight: 800;
+    font-family: 'Manrope', sans-serif;
+}
+form input,form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: var(--bg);
+    border-radius: 0.5rem;
+}
+form button{
+    padding: 15px;
+    background-color: var(--primary);
+    color: #fff;
+    font-size:18px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}

@@ -65,8 +65,8 @@ body {
     border-radius: 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 28rem;
-    min-width: 20rem;
+    max-width: 32rem;
+    min-width: 24rem;
     margin: 0 auto;
     gap: 0.75rem;
     display: flex;
@@ -340,7 +340,8 @@ body {
 }
 
 .content-links li a:hover {
-    border: 1px solid var(--active);
+    /* border: 1px solid var(--active); */
+    /* cursor:; */
     color: var(--active);
 }
 

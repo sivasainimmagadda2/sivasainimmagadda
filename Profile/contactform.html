@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sivasai Contact Form: Get in Touch</title>
+    <link rel="icon" type="image/png" href="image/NSS-removebg-preview.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contactform.css">
+</head>
+
+<body>
+    <div class="formcontaine">
+        <form id="contactForm">
+            <h3>GET IN TOUCH</h3>
+            <input type="hidden" name="access_key" value="1be9b065-65bb-4980-a4b3-32066b314a67">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Email id" required>
+            <input type="text" id="phone" name="phone" placeholder="Phone no" required>
+            <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const formData = new FormData(this);
+
+            fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('Message sent successfully!');
+                    this.reset();
+                } else {
+                    alert('Error: ' + data.message);
+                }
+            })
+            .catch(error => {
+                // Handle network errors
+                console.error('Error:', error);
+                alert('An error occurred. Please try again later.');
+            });
+        });
+    </script>
+</body>
+
+</html>
