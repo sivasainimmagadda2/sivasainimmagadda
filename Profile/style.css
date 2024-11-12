@@ -352,6 +352,10 @@ body {
     gap: 1rem;
     width: 100%;
 }
+.Microsoft-projects{
+    display: flex;
+    flex-direction: column;
+}
 
 .review {
     display: flex;
