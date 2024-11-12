@@ -39,6 +39,7 @@
                 if (data.success) {
                     alert('Message sent successfully!');
                     this.reset();
+                    window.location.href = 'index.html';
                 } else {
                     alert('Error: ' + data.message);
                 }
