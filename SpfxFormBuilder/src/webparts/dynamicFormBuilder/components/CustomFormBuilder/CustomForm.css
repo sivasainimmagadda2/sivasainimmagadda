@@ -1,0 +1,145 @@
+.ta-table1 {
+    width: 100%;
+    border-collapse: collapse;
+    /* margin: 20px 0; */
+    font-family: Arial, sans-serif;
+  }
+  
+  .ta-table1 th, .ta-table1 td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+    margin: auto;
+  }
+  
+  .ta-table1 th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .ta-table1 tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .ta-table1 tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .flex-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .add-approver-btn, .delete-approver-btn {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .add-approver-btn:hover, .delete-approver-btn:hover {
+    background-color: #005a9e;
+  }
+  
+  .all-edit {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    margin: 0 5px;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  .ta-table1 .delete-approver-btn {
+    background-color: #d9534f;
+  }
+  
+  .ta-table1 .delete-approver-btn:hover {
+    background-color: #c9302c;
+  }
+  
+  /* Modal Styles */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 60%;
+    max-width: 60%;
+  }
+  
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input, .form-group select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .modal-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cancel-btn {
+    background-color: #ccc;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #999;
+  }
+  
+  .Table{
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+  }
+.modal-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+.Add_btn{
+  border: none;
+  padding: 10px;
+  width: 20%;
+  background-color: #2a41a8;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 15px
+}

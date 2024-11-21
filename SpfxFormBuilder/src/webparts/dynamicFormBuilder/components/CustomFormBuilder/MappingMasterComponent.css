@@ -1,0 +1,72 @@
+.arrow-box {
+    position: relative;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  /* .arrow-box::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    margin-top: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent #f0f0f0;
+  } */
+  .content{
+    display: flex;
+    justify-content: space-between;
+    gap: 13px;
+    margin: auto;
+    margin-top: 7px;
+    height: 21px;
+  }
+  .arrow-box .content {
+    display: flex;
+    flex-direction: row;
+  }
+  .AllCards{
+    display: flex;
+    gap: 173px;
+    margin-left: 20px;
+
+  }
+  
+  :root {
+    --color: #c3cace; 
+    --duration: 2s; 
+  }
+  
+  .arrow {
+    display: flex;
+    background: var(--color);
+    width: 142px; 
+    height: 36px; 
+    border-radius: 0px 0 0 0;
+    position: absolute;
+    animation: arrow-1 var(--duration) linear infinite;
+  }
+  
+  .arrow::after {
+    content: '';
+    position: absolute;
+    right: -28px;
+    top: -10px;
+    border-top: 28px solid transparent; 
+    border-bottom: 28px solid transparent; 
+    border-left: 28px solid var(--color); 
+  }
+  .arrow::before {
+    content: '';
+    position: absolute;
+    right: 133px; 
+    top: 6px;
+    border-top: 12px solid transparent; 
+    border-bottom: 12px solid transparent; 
+    border-left: 9px solid #ffffff; 
+  }
+  

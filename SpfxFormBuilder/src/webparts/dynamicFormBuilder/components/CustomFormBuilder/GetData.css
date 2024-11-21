@@ -1,0 +1,326 @@
+  /* width */
+  ::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .card-container .card {
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .16);
+    height: 180px;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+
+
+  .Save-btn {
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 5px;
+    width: 60px;
+    font-size: 14px;
+    font-weight: 700;
+    color: antiquewhite;
+  }
+
+  .Submit-btn {
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 5px;
+    width: 60px;
+    font-size: 14px;
+    font-weight: 700;
+    color: antiquewhite;
+  }
+
+  .Back-btn {
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 5px;
+    width: 60px;
+    font-size: 14px;
+    font-weight: 700;
+    color: antiquewhite;
+  }
+
+  .Buttons-btn {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+  .allRecardsCards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .Recard-Cards {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+
+  }
+
+  .InProcess-Card {
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    /* background-color: #ccc5c5; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 3px solid rgba(165, 238, 30, 0.5);
+    height: 89px;
+    align-items: center;
+
+  }
+
+  .Draft-Card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    /* background-color: #ccc5c5; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 3px solid rgba(2, 48, 165, 0.5);
+    height: 89px;
+    align-items: center;
+  }
+
+  .Create-Card {
+    display: flex;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    /* background-color: #ccc5c5; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 3px solid rgba(245, 121, 5, 0.548);
+    height: 89px;
+    align-items: center;
+  }
+
+  .Draft-Card h6 {
+    width: 100%;
+    text-align: left;
+    font-size: 0.8rem;
+  }
+
+  .InProcess-Card h6 {
+    font-size: 0.8rem;
+    width: 100%;
+   text-align: left;
+  }
+
+  .InProcess-Card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .RoutLink {
+    color: black;
+    text-decoration: none;
+    margin-left: -19px;
+  }
+
+  .RoutLink:hover {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .AvailableFormsContainer {
+    margin-top: 40px;
+  }
+
+  .form-pen-icon {
+    width: 50px;
+    height: 35px;
+    margin-left: 0px;
+    fill: none;
+    stroke: #ee691e;
+    /* You can change this to any color */
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: stroke 0.3s;
+  }
+
+  .CardHeading {
+    font-size: 1rem;
+    margin-left: 5px;
+    color: #000;
+    width: 90%;
+    min-width: 100px;
+  }
+
+  .Card_Icon_Heading {
+    display: flex;
+    align-items: center;
+  }
+
+  .idea-light-pen-icon {
+    width: 24px;
+    height: 24px;
+    fill: none;
+    stroke: #ee691e;
+    /* Base color */
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: stroke 0.3s, transform 0.3s;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .idea-light-pen-icon:hover {
+    stroke: #680fd2;
+    /* transform: scale(1.1);  */
+    /* background-color: #680fd2; */
+    transition: background-color 1s, transform 0.3s;
+    border-radius: 60%;
+
+  }
+
+  .ButtonContainer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .CreateNew_Btn {
+    background: linear-gradient(40deg, #ee691e, #680fd2 90%);
+    color: #fafafa;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 88px;
+    height: 29px;
+    font-size: 9px;
+  }
+
+  .Select_Btn {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2px;
+    /* background: rgb(238, 237, 237); */
+    border-bottom: 2px solid rgb(238, 237, 237);
+    margin-bottom: 0px;
+  }
+
+  .Select_Btn li {
+    color: #ffffff;
+    font-weight: 600;
+    padding: 6px;
+    width: 140px;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+
+  /* linear-gradient(89.05deg, #ee691e, #680fd2 92.72%)d5b2ff */
+
+  .onSelect {
+    background: linear-gradient(-153deg, #ee691e, #680fd2 90%);
+    color: #fff;
+  }
+
+  .onOthers {
+    background-color: #d5b2ff;
+    color: #fff;
+  }
+
+  .Search-container {
+    background: linear-gradient(89.05deg, #ee691e, #680fd2 92.72%);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Icon-Count {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  .Icon-Count svg{
+    align-self: center;
+    margin-left: -2px;
+    color: rgba(165, 238, 30, 0.5);
+    font-weight: 600;
+  }
+  .Icon-Count p{
+    margin-bottom:-5px;
+    /* color: rgba(165, 238, 30, 0.5); */
+    font-weight: 600;
+
+  }
+  .Icon-Count-Draft{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  .Icon-Count-Draft svg{
+    align-self: center;
+    margin-left: -2px;
+    color: rgba(248, 91, 0, 0.993);
+    font-weight: 600;
+  }
+  .Icon-Count-Draft p{
+    margin-bottom:-5px;
+    /* color: rgba(165, 238, 30, 0.5); */
+    font-weight: 600;
+
+  }
+  .searchBar{
+    height: 40px;
+    align-self: center;
+    border: none;
+    border-radius: 7px;
+    width: 45%;
+  }
+  .mic{
+    height: 18px;
+    align-self: center;
+    margin-left: -26px;
+  }
