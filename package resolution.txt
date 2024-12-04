@@ -1,0 +1,109 @@
+creating new web part 
+
+npm install gulp-cli yo @microsoft/generator-sharepoint --global
+yo @microsoft/sharepoint 
+
+For fast 1): npm install spfx-fast-serve -g  
+2)spfx-fast-serve
+npm install spfx-fast-serve -g
+spfx-fast-serve
+npm install
+npm run serve
+
+
+=> pull the code from repo
+    commands:-
+		cd path for local repo ("C:\Users\SivasaiNimmagadda\All_Project\SmartOffice_local_source\SmartOfficeNxt")
+		cd tab 
+		git checkout Dev or Main (To shift to dev or main )
+		git branch (To check branches of repository)
+		git pull origin Dev
+-------------------------------------
+
+==> pull old code 
+
+create folder to path 
+
+git init 
+
+git remote add origin "repo-URL"
+https://git-codecommit.us-east-1.amazonaws.com/v1/repos/SmartOfficeNxt
+
+git fetch origin 'log commit ID'
+
+git checkout origin "log commit ID"
+
+-------------------------------------
+==> pull code to new folder
+	cd "path"
+	ls to check that folder 
+	git clone url (repository url)(intraNxT Repository url https://git-codecommit.us-east-1.amazonaws.com/v1/repos/Intranxt )
+	git checkout Dev (you are in Dev branch)
+	
+
+----------------------------------
+		git status
+		git add .
+		git commit -m"comments"
+		git push
+
+=> run the code "npm run serve"
+=> if no issues found, then only create package solution
+
+solution command:-
+#gulp clean
+#gulp bundle --ship
+#gulp package-solution --ship
+
+=> Check solution in your folder.
+
+
+--------------SRC(serve Json)------------------
+
+https://smrtofcnxt.sharepoint.com/sites/SmartOfficeNxtDev/_layouts/workbench.aspx
+
+-------------------------------------------------------------
+
+https://smrtofcnxt.sharepoint.com/sites/SmartOfficeNxtDev/_layouts/15/viewlsts.aspx?view=14
+
+
+https://smrtofcnxt.sharepoint.com/sites/SmartOfficeNxtdev?
+
+C:\Users\SivasaiNimmagadda\All_Project\SmartOffice_New code\SmartOfficeNxt\src\webparts\smartofficenxt\components\ContractManagementHome\Home\ApproverConfig.tsx
+Link : https://smrtofcnxt.sharepoint.com/sites/SmartOfficeNxtDev#/
+
+
+Smartoffice@smartofficenxt.cloudangles.com
+
+Puvo0520x
+
+
+
+Dev User 1
+Username: devuser1@smartofficenxt.cloudangles.com
+Password: jP3WHnREBLm2qkU9
+ 
+Dev User 2
+Username: devuser2@smartofficenxt.cloudangles.com
+Password: jP3WHnREBLm2qkU9 
+ 
+QA User 1
+Username: qauser1@smartofficenxt.cloudangles.com
+Password: jP3WHnREBLm2qkU9
+ 
+QA User 2
+Username: qauser2@smartofficenxt.cloudangles.com
+Password: jP3WHnREBLm2qkU9
+
+
+https://cloudangles.sharepoint.com/sites/SmartOfficeUAT
+
+
+
+https://git-codecommit.us-east-1.amazonaws.com/v1/repos/SmartOfficeNxt
+
+
+
+sivasai.nimmagadda@cloudangles.com-at-423616718509
+
+MUy4DDDU3UHFFHTGE57WvHiPeXpzyyjK0fSiDm+HA8361KF2x/CiHIQbCqE=

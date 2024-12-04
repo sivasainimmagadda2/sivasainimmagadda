@@ -1,0 +1,124 @@
+Parent list = https://indianbanko365.sharepoint.com/sites/SmartOffice/Lists/NOtes/admin.aspx
+Child list =  https://indianbanko365.sharepoint.com/sites/SmartOffice/main/Lists/NOtes/admin.aspx
+Noteattach7 = https://indianbanko365.sharepoint.com/sites/SmartOffice/main/noteattach6/forms/allitems.aspx
+NoteAnnexur = https://indianbanko365.sharepoint.com/sites/SmartOffice/Main/NoteAnnexures/Forms/AllItems.aspx
+Watermarkpdf= https://indianbanko365.sharepoint.com/sites/SmartOffice/lists/watermarkpdf/admin.aspx
+
+Department (Count) = 
+https://indianbanko365.sharepoint.com/sites/SmartOffice/lists/departments/admin.aspx
+
+Home Page =  https://indianbanko365.sharepoint.com/sites/SmartOffice/Sitepages/home.aspx
+
+
+Rapprovals = https://indianbanko365.sharepoint.com/sites/SmartOffice/Main/Lists/RApprovals/Admin.aspx
+Approavls =  
+https://indianbanko365.sharepoint.com/sites/SmartOffice/Main/Lists/Approvals/Admin.aspx
+
+Note Count=
+https://indianbanko365.sharepoint.com/sites/SmartOffice/main/_layouts/15/viewlsts.aspx?
+
+Wfhistory:-https://indianbanko365.sharepoint.com/sites/SmartOffice/main/lists/wfhistory/admin.aspx
+
+*****Count of Notes*******
+https://indianbanko365.sharepoint.com/sites/SmartOffice/main/_layouts/15/viewlsts.aspx?
+
+
+
+parent: https://indianbanko365.sharepoint.com/sites/SmartOffice/_layouts/15/viewlsts.aspx?view=14
+Child: https://indianbanko365.sharepoint.com/sites/SmartOffice/main/_layouts/15/viewlsts.aspx?view=14
+
+
+Admin Id =  ve_sharepointadmin@indianbank.co.in
+Pwd: IbSPT%0234$
+
+Login ID: ve_imo01@indianbank.co.in
+Password: Testuser2@1234
+
+*********************E-Committee[URL's]****************************
+
+Parent = https://indianbanko365.sharepoint.com/sites/eCommittee/lists/notes/admin.aspx
+Child = https://indianbanko365.sharepoint.com/sites/eCommittee/main/lists/notes/admin.aspx
+Noteattach = https://indianbanko365.sharepoint.com/sites/eCommittee/Main/NoteAttach/Forms/AllItems.aspx
+
+
+1) Login ID: mailto: ve_imo01@indianbank.co.in
+
+Password: Testuser1@1234
+
+2) Login ID: mailto: ve_imo02@indianbank.co.in 
+
+Password: Testuser2@1234 
+
+3) Login ID: mailto: ve_imo03@indianbank.co.in 
+
+Password: Testuser3@1234 
+
+4) Login ID: mailto: ve_imo04@indianbank.co.in 
+
+Password: Testuser4@1234
+
+sq.no:-86201 87755 87780 87850
+
+
+
+Delete everything from %USERPROFILE%\AppData\Local\Microsoft\WebsiteCache.
+Delete everything from %APPDATA%\Microsoft\Web Server Extensions\Cache.
+_______________________________________SF URL's_____________________________________________
+
+smartapprove@sundaramfinance.in
+SF@pprove#$%
+
+
+
+smartapprovetest2@sundaramfinance.in
+smartapprovetest3@sundaramfinance.in
+smartapprovetest4@sundaramfinance.in
+Compliance@092021
+
+PROC/2024-2025-05/3678
+____________________________________________________________________________________
+
+
+https://sflonline.sharepoint.com/sites/SMARTAPPROVE
+
+https://sflonline.sharepoint.com/sites/SMARTAPPROVE/Main/_layouts/15/viewlsts.aspx?view=14
+
+https://sflonline.sharepoint.com/sites/SMARTAPPROVE/lists/notes/admin.aspx
+
+https://sflonline.sharepoint.com/sites/SMARTAPPROVE/main/lists/notes/admin.aspx
+
+https://sflonline.sharepoint.com/sites/SMARTAPPROVE/main/noteattach/forms/admin.aspx
+
+https://sflonline.sharepoint.com/sites/SMARTAPPROVE/main/noteannexures/forms/admin.aspx
+
+
+
+https://sflonline.sharepoint.com/sites/SMARTAPPROVE/lists/wfhistory/admin.aspx
+
+https://sflonline.sharepoint.com/sites/SMARTAPPROVE/lists/departments/admin.aspx
+
+___________________________________________________________________________________________________________
+
+ESignature UAT:- https://sflonline.sharepoint.com/sites/SMARTAPPROVEUAT/main/lists/ESignature/AllItems.aspx
+
+ESignature Prod :- https://sflonline.sharepoint.com/sites/SMARTAPPROVE/Main/lists/ESignature/admin.aspx
+
+
+SF One Drive Link :-
+https://sflonline-my.sharepoint.com/personal/smartapprove_sundaramfinance_in/_layouts/15/onedrive.aspx?id=https%3A%2F%2Fsflonline%2Esharepoint%2Ecom%2Fsites%2FSMARTAPPROVE&view=2
+
+________________________________________________________________________________________________________
+
+
+test 1 passcode : sf@t11
+
+
+traineeuser@smartofficenxt.cloudangles.com
+Practice@12345
+
+
+rajesh.udumula@cloudangles.com
+fvlapuuzl4k3wxuemsfgdsbqfhn76bgrousiqffx4wx2yrxshbva
+
+        
+
